@@ -4,10 +4,10 @@ public class Main {
     public static void main(String[] args) {
 
         //a----------------
-        String[] arrayString = {"bobek", "Hradeček", "taštička", "Jindra"};
+        String[] poleString = {"bobek", "Hradeček", "taštička", "Jindra"};
 
-        for (int i = 0; i < arrayString.length; i++) {
-            System.out.print(arrayString[i] + " ");
+        for (int i = 0; i < poleString.length; i++) {
+            System.out.print(poleString[i] + " ");
         }
         System.out.println();
         System.out.println();
@@ -17,7 +17,7 @@ public class Main {
         System.out.println("Jak velké chceš mít pole písmen?");
         int n = sc.nextInt();
         sc.nextLine();
-        //int[] arrayInt = new int[n+1];
+        //int[] poleInt = new int[n+1];
         char[] pismena = new char[n+1];
 
         for (int i = 1; i < pismena.length; i++) {
@@ -37,9 +37,10 @@ public class Main {
 
 
         //c----------------
-
-
-
+        Hodnoceni[] vysvedceni = new Hodnoceni[5];
+        vysvedceni[0] = new Hodnoceni("Biologie", 2);
+        vysvedceni[1] = new Hodnoceni("Zeměpis", 5);
+        vysvedceni[2] = new Hodnoceni("Chemie", 4);
 
 
 
