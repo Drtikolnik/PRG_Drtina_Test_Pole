@@ -3,6 +3,7 @@ public class Main {
     static Scanner sc = new Scanner(System.in);
     public static void main(String[] args) {
 
+
         //a----------------
         String[] poleString = {"bobek", "Hradeček", "taštička", "Jindra"};
 
@@ -41,11 +42,9 @@ public class Main {
         vysvedceni[0] = new Hodnoceni("Biologie", 2);
         vysvedceni[1] = new Hodnoceni("Zeměpis", 5);
         vysvedceni[2] = new Hodnoceni("Chemie", 4);
-
-
-
-
-
+        for (int i = 0; i < vysvedceni.length; i++) {
+            vysvedceni[i].nejlepsiHodnoceni();
+        }
 
 
 
